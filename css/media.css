@@ -1,0 +1,88 @@
+/*xs` applies to x-small devices*/
+@media (max-width: 576px){
+	.t-d li a{
+	font-size: 11px;
+}
+	.h_part h1{
+	font-size: 25px;
+	font-weight: 700;
+}
+	.h_part h2{
+	font-size: 20px;
+	font-weight: 700;
+}
+.posi{
+	margin: 20px 0;
+	width: 90%;
+}
+}
+/*sm` applies to small devices*/
+@media (min-width: 576px) and (max-width: 767.98px){
+	.t-d li a{
+	font-size: 12px;
+}
+	.h_part h1{
+	font-size: 30px;
+	font-weight: 700;
+}
+	.h_part h2{
+	font-size: 25px;
+	font-weight: 700;
+}
+}
+/*/*md` applies to medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px){
+	.t-d li a{
+	font-size: 14px;
+}
+	.h_part h1{
+	font-size: 35px;
+	font-weight: 700;
+}
+	.h_part h2{
+	font-size: 30px;
+	font-weight: 700;
+}
+}
+/*lg` applies to large devices*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.t-d li a{
+	font-size: 16px;
+}
+	.h_part h1{
+	font-size: 40px;
+	font-weight: 900;
+}
+	.h_part h2{
+	font-size: 35px;
+	font-weight: 700;
+}
+}
+/*xl` applies to extra large devices*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+	.t-d li a{
+	font-size: 17px;
+}
+	.h_part h1{
+	font-size: 42px;
+	font-weight: 900;
+}
+	.h_part h2{
+	font-size: 38px;
+	font-weight: 700;
+}
+}
+/*/*xxl` applies to extra x-large devices*/
+@media (min-width: 1400px){ 
+	.t-d li a{
+	font-size: 18px;
+}
+	.h_part h1{
+	font-size: 45px;
+	font-weight: 900;
+}
+	.h_part h2{
+	font-size: 40px;
+	font-weight: 700;
+}
+}
